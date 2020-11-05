@@ -1,0 +1,4 @@
+
+# Ignore Composer built packages/site-scaffold
+vendor
+web
