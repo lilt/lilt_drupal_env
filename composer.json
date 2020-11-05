@@ -13,6 +13,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Luciditi/tmgmt_lilt"
         }
     ],
     "require": {
@@ -20,6 +24,8 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/tmgmt": "^1.11",
+        "drupal/tmgmt_lilt": "dev-8.x-1.x",
         "drush/drush": "^10.3"
     },
     "conflict": {
