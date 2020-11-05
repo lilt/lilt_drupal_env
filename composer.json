@@ -13,13 +13,21 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Luciditi/tmgmt_lilt"
         }
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^2.4",
+        "drupal/coffee": "^1.0",
         "drupal/core-composer-scaffold": "^8",
         "drupal/core-project-message": "^8",
         "drupal/core-recommended": "^8",
+        "drupal/tmgmt": "^1.11",
+        "drupal/tmgmt_lilt": "dev-8.x-1.x",
         "drush/drush": "^10.3"
     },
     "conflict": {
@@ -83,5 +91,15 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/coder": "^8.3",
+        "drupal/devel": "^4.0",
+        "mglaman/drupal-check": "^1.1",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "symfony/css-selector": "^5.1",
+        "symfony/phpunit-bridge": "^5.1"
     }
 }

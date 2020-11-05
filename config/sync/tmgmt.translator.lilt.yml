@@ -1,0 +1,24 @@
+uuid: 1969d904-1638-49c0-839e-e1182bbbe185
+langcode: en
+status: true
+dependencies:
+  module:
+    - tmgmt_lilt
+name: lilt
+label: Lilt
+description: 'Lilt translation service.'
+auto_accept: false
+weight: -10
+plugin: lilt
+settings:
+  lilt_api_key: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  lilt_service_url: 'https://lilt.com/2'
+  lilt_app_url: 'https://lilt.com/app/'
+  lilt_log_api: true
+  lilt_pretranslation: ''
+  lilt_auto_accept: false
+  lilt_config_id: null
+remote_languages_mappings:
+  en: en
+  de: de
+  fr: fr

@@ -1,0 +1,29 @@
+uuid: 48658e48-b6fc-4458-86c4-b495eb7472ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.translatable_node.body
+    - node.type.translatable_node
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: XtWayF_fnPtlKdq0xAqgwZt0XI72k_RmlXpeKd1jmPE
+id: node.translatable_node.default
+targetEntityType: node
+bundle: translatable_node
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
