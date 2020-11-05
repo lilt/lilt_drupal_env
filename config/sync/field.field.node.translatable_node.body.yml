@@ -1,0 +1,25 @@
+uuid: 2ee9fe84-0c46-47cc-be11-ff55d4c9317d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.translatable_node
+  module:
+    - text
+_core:
+  default_config_hash: hssyAluMealZi9k_Vs0yJ1bUlzbnUaVYnllAGcnz-rk
+id: node.translatable_node.body
+field_name: body
+entity_type: node
+bundle: translatable_node
+label: 'Demo body'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
