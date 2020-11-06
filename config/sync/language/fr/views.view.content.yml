@@ -1,0 +1,46 @@
+label: Contenu
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
+            first: '« Premier'
+            last: 'Dernier »'
+      fields:
+        title:
+          label: Titre
+        type:
+          separator: ', '
+        status:
+          label: État
+        operations:
+          label: Actions
+      filters:
+        title:
+          expose:
+            label: Titre
+        status:
+          expose:
+            label: État
+        langcode:
+          expose:
+            label: Langue
+      title: Contenu
+    display_title: Maître
+  page_1:
+    display_options:
+      menu:
+        title: Contenu
+      tab_options:
+        title: Contenu
+    display_title: Page

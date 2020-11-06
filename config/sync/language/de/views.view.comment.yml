@@ -1,0 +1,66 @@
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      pager:
+        options:
+          tags:
+            previous: '‹ vorherige Seite'
+            next: 'nächste Seite ›'
+            first: '« erste Seite'
+            last: 'letzte Seite »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      fields:
+        comment_bulk_form:
+          action_title: Aktion
+        subject:
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          separator: ', '
+        entity_id:
+          separator: ', '
+        changed:
+          separator: ', '
+        operations:
+          label: Aktionen
+        name_1:
+          separator: ', '
+      filters:
+        langcode:
+          expose:
+            label: Sprache
+  page_unapproved:
+    display_options:
+      filters:
+        langcode:
+          expose:
+            label: Sprache
+      fields:
+        comment_bulk_form:
+          action_title: Aktion
+        subject:
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          separator: ', '
+        entity_id:
+          separator: ', '
+        changed:
+          separator: ', '
+        operations:
+          label: Aktionen
+        name_1:
+          separator: ', '
