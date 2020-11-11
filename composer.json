@@ -41,8 +41,9 @@
     "scripts": {
         "code-standards": "phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer && phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt,md web/modules/contrib/tmgmt_lilt",
         "deprecation-check": "./vendor/bin/drupal-check web/modules/contrib/tmgmt_lilt",
+        "functional-js": "phpunit -c phpunit.xml web/modules/contrib/tmgmt_lilt/tests/src/FunctionalJavascript",
         "lint": "find web/modules/contrib/tmgmt_lilt  -regex '.*\\.\\(inc\\|install\\|module\\|php\\|profile\\|test\\|theme\\)' | xargs -I '{}' php -l '{}' \\;",
-        "unit-test": "phpunit -c web/core/phpunit.xml.dist web/modules/contrib/tmgmt_lilt"
+        "unit-test": "phpunit -c phpunit.xml web/modules/contrib/tmgmt_lilt"
     },
     "extra": {
         "drupal-scaffold": {
@@ -99,6 +100,9 @@
         }
     },
     "require-dev": {
+        "behat/mink": "^1.8",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-selenium2-driver": "^1.4",
         "drupal/coder": "^8.3",
         "drupal/devel": "^4.0",
         "mglaman/drupal-check": "^1.1",
