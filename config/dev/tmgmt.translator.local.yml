@@ -1,0 +1,14 @@
+uuid: c609ef5e-70e2-4d12-89f3-971a93953407
+langcode: en
+status: true
+dependencies:
+  module:
+    - tmgmt_local
+name: local
+label: 'Drupal user'
+description: 'Allows local users to process translation jobs.'
+auto_accept: null
+weight: -9
+plugin: local
+settings: {  }
+remote_languages_mappings: {  }

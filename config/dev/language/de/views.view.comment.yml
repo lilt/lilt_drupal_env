@@ -1,0 +1,57 @@
+label: Kommentare
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      pager:
+        options:
+          tags:
+            previous: '‹ vorherige Seite'
+            next: 'nächste Seite ›'
+            first: '« erste Seite'
+            last: 'letzte Seite »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      fields:
+        comment_bulk_form:
+          action_title: Aktion
+        subject:
+          label: Betreff
+        operations:
+          label: Aktionen
+      filters:
+        subject:
+          expose:
+            label: Betreff
+        langcode:
+          expose:
+            label: Sprache
+      title: Kommentare
+  page_published:
+    display_options:
+      menu:
+        title: Kommentare
+  page_unapproved:
+    display_options:
+      filters:
+        subject:
+          expose:
+            label: Betreff
+        langcode:
+          expose:
+            label: Sprache
+      fields:
+        comment_bulk_form:
+          action_title: Aktion
+        subject:
+          label: Betreff
+        operations:
+          label: Aktionen

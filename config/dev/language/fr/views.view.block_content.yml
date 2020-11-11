@@ -1,0 +1,27 @@
+label: 'Bibliothèque de blocs personnalisés'
+display:
+  default:
+    display_title: Maître
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+      pager:
+        options:
+          tags:
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+      fields:
+        operations:
+          label: Actions
+      title: 'Bibliothèque de blocs personnalisés'
+  page_1:
+    display_options:
+      menu:
+        title: 'Bibliothèque de blocs personnalisés'
