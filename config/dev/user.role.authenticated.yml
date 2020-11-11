@@ -1,0 +1,22 @@
+uuid: 0920df56-5ff7-44e6-8b32-9a99982f4b37
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'post comments'
+  - 'provide translation services'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view the administration theme'
