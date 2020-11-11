@@ -1928,7 +1928,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luciditi/tmgmt_lilt",
-                "reference": "d216cdc5a8184f9ecb453b777e27f16f697bd743"
+                "reference": "261e750751b196f46e3fc538d2cf53346cf44bfa"
             },
             "require": {
                 "drupal/tmgmt": "^1.0"
