@@ -1857,8 +1857,8 @@
             "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Luciditi/tmgmt_lilt",
-                "reference": "afadb0a0cb993a8cd75ca6a291291db23bb8dc35"
+                "url": "https://github.com/lilt/tmgmt_lilt",
+                "reference": "a696dc3ec2e8b0d5bc01bdea66de4db6ed4186a2"
             },
             "require": {
                 "drupal/tmgmt": "^1.0"

@@ -42,6 +42,7 @@
         "deprecation-check": "./vendor/bin/drupal-check web/modules/contrib/tmgmt_lilt",
         "functional-js": "phpunit -c phpunit.xml web/modules/contrib/tmgmt_lilt/tests/src/FunctionalJavascript",
         "lint": "find web/modules/contrib/tmgmt_lilt  -regex '.*\\.\\(inc\\|install\\|module\\|php\\|profile\\|test\\|theme\\)' | xargs -I '{}' php -l '{}' \\;",
+        "sync-do" : "cd web/modules/contrib/tmgmt_lilt/ && git remote add do git@git.drupal.org:project/tmgmt_lilt.git || true && git push -u do --all && git push -u origin --tags",
         "unit-test": "phpunit -c phpunit.xml web/modules/contrib/tmgmt_lilt"
     },
     "extra": {
