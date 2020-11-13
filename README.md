@@ -15,7 +15,7 @@ Follow the links for installation of the dependencies.
 
 ## Development
 By default, this environment is setup for demo purposes. If you'd like to use
-it for development. You can enable a developer configuration via this command:
+it for development, you can enable a developer configuration via this command:
 
 - `ddev exec drush cim --source '../config/dev' -y`
 
