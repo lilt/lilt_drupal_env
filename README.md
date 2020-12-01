@@ -39,3 +39,21 @@ forked project for submitting PRs:
 - `git checkout -b my_feature`
 - `git push my_repo my_feature`
 - Complete PR on GitHub
+
+### Creating Releases
+If you are a project maintainer, this repo can be used to prepare releases on
+drupal.org.
+
+- Auth your SSH key associated with your d.o. account: `ddev auth ssh`
+- `cd web/modules/contrib/tmgmt_lilt`
+- Add git tag with 8.x-VERSION format (e.g. `git tag '8.x-1.0'`). See drupal.org [release conventions](https://www.drupal.org/node/1015226).
+- Sync to drupal.org Gitlab (e.g. `composer run-script sync-do`).
+- Edit [project page](https://www.drupal.org/project/tmgmt_lilt).
+- Use **Releases** tab to **Add new release**.
+- Select tag and click **Next**.
+- Leave **Version string** as is.
+- Add detailed release info (e.g. bug fixes, features, etc.) under **Release notes**.
+- Add short sentence that describes the release under **Short description**. This sentenced will be used on the **Downloads** section on the [project page](https://www.drupal.org/project/tmgmt_lilt).
+- Use **Release type** for noting type of release (e.g. bug fix, feature).  See drupal.org [project release types](https://www.drupal.org/node/1025122#type).
+- Click **Save**.
+- Use **Releases** tab to set the a new release to **Recommended** (if applicable).
